@@ -9,7 +9,8 @@ const getPath = function (dir) {
 
 // build(2)
 // build(3)
-build(4)
+// build(4)
+build(5)
 
 function build (version) {
   const list = require(getPath(`../v${version}/data.json`))
